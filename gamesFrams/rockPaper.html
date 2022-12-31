@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/rockPaper.css">
+    <title>Rock Paper</title>
+</head>
+
+<body>
+    <div id="RockPaper" class="container">
+        <div class="top_info">
+            <p style="color: white;">You : <span id="score_a"></span></p>
+            <p style="color: white;">Computer : <span id="score_b"></span></p>
+            <button onclick="newGame()">New Game</button>
+        </div>
+        <div class="game_container">
+            <div id="Rock" class="" onclick="pickOption(1)">
+                <img src="../media/images/rockPaper/Rock.png">
+                <span>Rock</span>
+            </div>
+            <div id="Paper" class="" onclick="pickOption(2)">
+                <img src="../media/images/rockPaper/Paper.png">
+                <span>Paper</span>
+            </div>
+            <div id="Scissors" class="" onclick="pickOption(3)">
+                <img src="../media/images/rockPaper/Scissors.png">
+                <span>Scissors</span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../JavaScript/rockPaper.js"></script>
+</html>

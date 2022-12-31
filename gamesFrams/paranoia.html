@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/paranoia.css">
+    <title>Paranoia Game</title>
+</head>
+
+<body>
+    <div id="games-body">
+        <button id="ParaNewGame" style="position: relative; top: -60%; left: 40%;">Start Game</button>
+        <div id="Spot">
+            <canvas id="ParaCanvas" width="1330" height="594px"></canvas>
+        </div>
+    </div>
+    <!-- Sounds -->
+    <audio id="GameOver">
+        <source src="../media/sound/Paranoia/game-over.wav" type="audio/wav">
+    </audio>
+    <audio id="Killed">
+        <source src="../media/sound/Paranoia/killed.wav" type="audio/wav">
+    </audio>
+    <audio id="Hit">
+        <source src="../media/sound/Paranoia/mixkit-sound.wav" type="audio/wav">
+    </audio>
+    <audio id="win">
+        <source src="../media/sound/Paranoia/win.mp3" type="audio/mp3">
+    </audio>
+</body>
+<script src="../JavaScript/Paranoia.js"></script>
+
+</html>

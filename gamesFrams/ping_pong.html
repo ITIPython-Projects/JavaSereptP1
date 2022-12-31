@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Ping_Pong.css">
+    <title>Ping pong Game</title>
+</head>
+
+<body>
+    <section class="game">
+        <div class="buttons">
+            <div id="pause">Pause </div>
+            <div id="levels">
+                <ul style="padding-left: 0px;">
+                    <li id="level1" class="activeLevel">level1</li>
+                    <li id="level2">level2</li>
+                    <li id="level3">level3</li>
+                    <li id="level4">level4</li>
+                    <li id="level5">level5</li>
+                </ul>
+            </div>
+        </div>
+        <div class="game-container">
+            <canvas id="gameBord" width="1000" height="600"></canvas>
+        </div>
+    </section>
+    <!---------------------- images ---------------------------------------------->
+    <div class="pingPongImages">
+        <img id="background" src="../media/images/ping_pong/level1/background.jpg" style="display: none;">
+        <img id="ball" src="../media/images/ping_pong/level1/ball.png" style="display: none;">
+        <img id="plyerImage" src="../media/images/ping_pong/level1/player.png" style="display: none;">
+        <img id="computerImage" src="../media/images/ping_pong/level1/computer.png" style="display: none;">
+    </div>
+    <!---------------------- Sounds ---------------------------------------------->
+    <div class="pngPongSounds" style="display: none;">
+        <audio id="counterDown" src="../media/sound/pingPong/Level1/counterDown.mp3">
+        </audio>
+        <audio id="borderHit" src="../media/sound/pingPong/Level1/borderHit.mp3">
+        </audio>
+        <audio id="playerHit" src="../media/sound/pingPong/Level1/plyerHit.mp3">
+        </audio>
+        <audio id="computerHit" src="../media/sound/pingPong/Level1/computerHit.mp3">
+        </audio>
+        <audio id="plyerLoss" src="../media/sound/pingPong/Level1/plyerLoss.mp3">
+        </audio>
+        <audio id="computerLoss" src="../media/sound/pingPong/Level1/computerLoss.mp3">
+        </audio>
+    </div>
+</body>
+<script src="../JavaScript/Ping_pong.js"></script>
+
+</html>

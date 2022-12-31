@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#memory{
+    width: 425px;
+    margin: 10vh auto;
+    border-radius: 10px;
+    background: #eee;
+    overflow: hidden;
+}
+
+div{
+    float: left;
+    background: url(../media/images/memoryGame/Moon.gif);
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+img{
+    opacity: 0;
+}  
+

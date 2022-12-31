@@ -1,0 +1,57 @@
+.game-container {
+    border: 3px solid #59CE8F;
+    margin: auto;
+    width: fit-content;
+}
+.game{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons{
+    width: fit-content;
+    margin:auto;
+    margin-right: 15px;
+}
+#pause {
+    cursor: pointer;
+    border: 3px solid #59CE8F;
+    color: #59CE8F;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 30px;
+    transition: all .2s ease;
+}
+#pause:hover {
+    color: white;
+    background-color: #59CE8F;
+}
+#levels {
+    color: #59CE8F;
+    width: fit-content;
+    margin: auto;
+    font-size: 30px;
+    padding: 0;
+    transition: all .2s ease;
+}
+#levels ul li{
+    list-style-type: none;
+}
+#levels ul li{
+    border: 3px solid #59CE8F;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 15px;
+}
+#levels ul li:hover {
+    color: white;
+    background-color: #59CE8F;
+}
+.activeLevel{
+    background-color: #388059;
+    color: white;
+}
